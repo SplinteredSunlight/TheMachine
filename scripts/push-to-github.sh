@@ -8,7 +8,7 @@ cd "$(dirname "$0")/.."
 # Check if remote exists, if not add it
 if ! git remote | grep -q "origin"; then
     echo "Adding GitHub remote..."
-    git remote add origin https://github.com/splinteredsunlight/TheMachine.git
+    git remote add origin https://github.com/SplinteredSunlight/TheMachine.git
 fi
 
 # Check if there are any changes to commit
